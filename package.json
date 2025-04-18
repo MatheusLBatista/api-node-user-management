@@ -1,0 +1,25 @@
+{
+  "name": "api-node-user-management",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Estudando e criando API em node.js para o gerenciamento de usuários.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusLBatista/api-node-user-management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusLBatista/api-node-user-management/issues"
+  },
+  "homepage": "https://github.com/MatheusLBatista/api-node-user-management#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
