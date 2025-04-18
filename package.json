@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/MatheusLBatista/api-node-user-management#readme",
   "dependencies": {
+    "@prisma/client": "^6.6.0",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.6.0"
   }
 }
