@@ -142,12 +142,11 @@ const config = {
     "db"
   ],
   "activeProvider": "mongodb",
-  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": null
+        "value": "mongodb+srv://matheusifro2020:5hxoH8P7frVO4dfR@users.62mqnii.mongodb.net/users?retryWrites=true&w=majority&appName=users"
       }
     }
   },
