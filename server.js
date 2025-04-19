@@ -33,6 +33,21 @@ app.post('/users', async (req, res) => {
     res.status(201).json(req.body);
 });
 
+app.put('/users/:id', async (req, res) => {
+    await prisma.user.update({
+        where: {
+            id: req.params.id
+        },
+        data: {
+            email: req.body.email,
+            name: req.body.name,
+            age: req.params.age
+        }
+    })
+
+    res.status(200).json(req.body)
+})
+
 app.listen(5001, () => {
     console.log('🚀 Server running on http://localhost:5001');
 });
